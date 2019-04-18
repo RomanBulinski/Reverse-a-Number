@@ -1,18 +1,16 @@
 public class Main {
 
 
-    public int reverseNumb( int num){
+    public int reverseNumb(int num) {
 
-        if( num > 0 ){
+        if (num > 0) {
             String mirrornumb = getString(num);
-            return Integer.valueOf( mirrornumb );
-
-        }else{
+            return Integer.valueOf(mirrornumb);
+        } else {
             num = num * -1;
             String mirrornumb = getString(num);
-            return Integer.valueOf( "-"+mirrornumb );
+            return Integer.valueOf("-" + mirrornumb);
         }
-
     }
 
     private String getString(int num) {
